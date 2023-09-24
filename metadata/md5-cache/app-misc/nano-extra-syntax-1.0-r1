@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=makeconf? ( app-misc/nano-extra-syntax-makeconf )
+DESCRIPTION=Extra syntax highlight files for Nano text editor
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+IUSE=+makeconf
+KEYWORDS=amd64 x86
+LICENSE=freedist
+REQUIRED_USE=makeconf
+SLOT=0
+_md5_=4972cbee0b1f8e38edfa85664711e1e1

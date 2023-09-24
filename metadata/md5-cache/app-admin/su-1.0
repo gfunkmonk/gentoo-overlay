@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=|| ( sys-devel/gcc sys-devel/clang ) virtual/libcrypt
+DESCRIPTION=Su implementation without pam
+EAPI=8
+HOMEPAGE=https://github.com/stefan11111/su
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=|| ( sys-devel/gcc sys-devel/clang ) virtual/libcrypt
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=2f793ee93121abf77cb9e05104479dee

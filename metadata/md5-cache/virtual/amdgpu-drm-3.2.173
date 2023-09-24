@@ -1,0 +1,9 @@
+DEFINED_PHASES=setup
+DESCRIPTION=Virtual for the amdgpu DRM (Direct Rendering Manager) kernel module
+EAPI=7
+IUSE=custom-kernel kernel rock-dkms strict-pairing
+KEYWORDS=~amd64 ~x86
+RDEPEND=!strict-pairing? ( || ( >=sys-firmware/amdgpu-dkms-firmware-5.13.20.22.10.50103 >=sys-kernel/linux-firmware-20220516 ) kernel? ( !custom-kernel? ( || ( >=sys-kernel/gentoo-kernel-5.18 >=sys-kernel/gentoo-kernel-bin-5.18 >=sys-kernel/gentoo-sources-5.18 >=sys-kernel/git-sources-5.18 >=sys-kernel/ot-sources-5.18 >=sys-kernel/pf-sources-5.18 >=sys-kernel/rt-sources-5.18 >=sys-kernel/vanilla-kernel-5.18 >=sys-kernel/vanilla-sources-5.18 >=sys-kernel/zen-sources-5.18 ) ) ) rock-dkms? ( >=sys-kernel/rock-dkms-5.1.3 ) ) strict-pairing? ( ~sys-firmware/amdgpu-dkms-firmware-5.13.20.22.10.50103 kernel? ( !custom-kernel? ( || ( =sys-kernel/gentoo-kernel-5.18* =sys-kernel/gentoo-kernel-bin-5.18* =sys-kernel/gentoo-sources-5.18* =sys-kernel/git-sources-5.18* =sys-kernel/ot-sources-5.18* =sys-kernel/pf-sources-5.18* =sys-kernel/rt-sources-5.18* =sys-kernel/vanilla-kernel-5.18* =sys-kernel/vanilla-sources-5.18* =sys-kernel/zen-sources-5.18* ) ) ) rock-dkms? ( ~sys-kernel/rock-dkms-5.1.3 ) )
+REQUIRED_USE=^^ ( kernel rock-dkms )
+SLOT=0/3.2.173
+_md5_=8993860c83ebf8e1f8b6799ed0c35e3b

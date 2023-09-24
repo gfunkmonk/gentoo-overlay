@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst setup unpack
+DESCRIPTION=Firmware blobs used by amdgpu driver in DKMS format
+EAPI=7
+HOMEPAGE=https://www.amd.com/en/support/linux-drivers
+INHERIT=unpacker
+IUSE=r1
+KEYWORDS=~amd64
+LICENSE=AMDGPU-FIRMWARE-2020
+RDEPEND=!sys-firmware/rock-firmware
+REQUIRED_USE=
+SLOT=0/5.18.13.50403
+SRC_URI=https://repo.radeon.com/amdgpu/5.4.3/ubuntu/pool/main/a/amdgpu-dkms/amdgpu-dkms-firmware_5.18.13.50403-1538762.22.04_all.deb
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	aa6a4e924009232d8b78b31e932c30b5
+_md5_=2629a61d787904c2482c304c5b979d51

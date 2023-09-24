@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <!-- Ebuild on the oiledmachine-overlay -->
+    <email>orsonteodoro@hotmail.com</email>
+    <name>Orson Teodoro</name>
+  </maintainer>
+  <longdescription>
+    The amdgpu-drm is a virtual ebuild.  It will make sure that amdgpu DRM
+    (Direct Rendering Manager) kernel driver has compatible support for both the
+    kernel and userspace drivers.
+  </longdescription>
+  <use>
+    <flag name="custom-kernel">
+      Disable *DEPENDs checks.
+    </flag>
+    <flag name="kernel">
+      Selects the in kernel sources which will contain the amdgpu DRM driver.
+
+      (Recommended for minimal install and better security, but you are
+      responsible for the proper kernel configuration.)
+    </flag>
+    <flag name="rock-dkms">
+      Selects rock-dkms as a DRM module driver.
+
+      (Recommended for feature completeness and kernel configuration
+      correctness.)
+    </flag>
+    <flag name="strict-pairing">
+      Both the firmware and DRM driver are paired so they coinside, meaning the
+      5.6.0 kernel driver matches the corresponding the 5.6 firmware.
+      Otherwise, the kernel driver is paired greater than or equal to the
+      firmware release.
+    </flag>
+  </use>
+</pkgmetadata>

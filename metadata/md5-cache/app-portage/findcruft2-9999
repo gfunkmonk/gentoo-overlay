@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=findcruft2 is a tool to find orphaned files for unmerged packages
+EAPI=8
+HOMEPAGE=https://github.com/iDarkTemplar/findcruft2
+INHERIT=git-r3
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+PROPERTIES=live live
+RDEPEND=app-shells/bash sys-apps/grep sys-apps/coreutils sys-apps/findutils sys-apps/sed
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=20775d44af681dbbfa0db52b68f3fb4e

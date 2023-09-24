@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KEGS
+Type=Application
+Comment=Apple IIGS emulator
+Exec=xkegs
+TryExec=xkegs
+Icon=kegs
+Categories=Emulator;System;

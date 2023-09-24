@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
+EAPI=8
+HOMEPAGE=https://github.com/madmaxms/theme-obsidian-2
+INHERIT=git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=e434a701478c21974fac76eae022c05c
