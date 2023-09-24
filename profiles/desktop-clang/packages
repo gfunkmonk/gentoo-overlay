@@ -1,0 +1,7 @@
+# now part of @system set
+*sys-fs/eudev
+*app-misc/mc
+
+# not needed cause faggots
+-*sys-apps/systemd
+-*sys-apps/systemd-utils
