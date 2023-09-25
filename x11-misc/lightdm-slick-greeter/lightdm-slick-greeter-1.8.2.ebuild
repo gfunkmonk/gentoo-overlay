@@ -39,6 +39,7 @@ RDEPEND="${DEPEND}
 	media-libs/libcanberra
 	x11-libs/libXext
 	x11-libs/pixman
+	x11-libs/xapp
 "
 
 src_prepare(){

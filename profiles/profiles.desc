@@ -9,4 +9,4 @@
 #layout:
 #arch		profile_directory						status
 
-amd64		default/linux/amd64/17.1/desktop/clang				dev
+amd64		desktop-clang							dev
