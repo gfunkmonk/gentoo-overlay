@@ -1,0 +1,16 @@
+BDEPEND=x11-misc/xdg-utils
+DEFINED_PHASES=install postinst postrm prepare
+DESCRIPTION=A versatile and powerful photo viewer, image management, image resizer
+EAPI=7
+HOMEPAGE=https://www.xnview.com/en/xnviewmp/ https://newsgroup.xnview.com/viewtopic.php?f=82&t=40823&sid=1e876705c694988991fd81eca5b925d1
+INHERIT=desktop xdg-utils
+IUSE=-bundled-qt-libs -bundled-icu-libs -bundled-other-libs -system-pulseaudio
+KEYWORDS=~amd64
+LICENSE=freedist XnView
+RDEPEND=>=dev-libs/glib-2 x11-libs/libX11 x11-libs/libXi x11-libs/libXt !bundled-qt-libs? ( dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5[X] dev-qt/qtgui:5[gif] dev-qt/qtgui:5[jpeg] dev-qt/qtgui:5[png] !system-pulseaudio? ( dev-qt/qtmultimedia:5[widgets] dev-qt/qtmultimedia:5[qml] ) system-pulseaudio? ( dev-qt/qtmultimedia:5[pulseaudio] dev-qt/qtmultimedia:5[widgets] dev-qt/qtmultimedia:5[qml] ) dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtlocation:5 dev-qt/qtprintsupport:5 dev-qt/qtdeclarative:5 dev-qt/qtsensors:5[qml] dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtwebchannel:5[qml] dev-qt/qtwebkit:5[qml] dev-qt/qtwebkit:5[opengl] dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5 !system-pulseaudio? ( media-libs/qtav[-pulseaudio] ) system-pulseaudio? ( media-libs/qtav[pulseaudio] ) ) !bundled-icu-libs? ( dev-libs/icu )
+REQUIRED_USE=bundled-qt-libs? ( !system-pulseaudio )
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=https://download.xnview.com/old_versions/XnView_MP/XnView_MP-0.98.3-linux-x64.tgz
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=659a8186337800c69740445a7b0ed61a
