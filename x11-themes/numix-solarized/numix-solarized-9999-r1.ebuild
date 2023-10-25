@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/mzgnr/solarized-dark-xfce"
 
 LICENSE="GPL-3 MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 RDEPEND="
 	x11-themes/gtk-engines-murrine

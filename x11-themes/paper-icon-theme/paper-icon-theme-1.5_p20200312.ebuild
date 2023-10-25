@@ -11,6 +11,7 @@ inherit meson
 DESCRIPTION="Paper Icon Theme"
 HOMEPAGE="http://snwh.org/paper"
 EGIT_COMMIT="aa3e8af7a1f0831a51fd7e638a4acb077a1e5188"
+KEYWORDS="amd64 arm64 x86"
 LICENSE="
 	CC-BY-SA-4.0
 	GPL-3

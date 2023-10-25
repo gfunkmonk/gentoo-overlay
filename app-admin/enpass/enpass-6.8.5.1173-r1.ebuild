@@ -11,7 +11,7 @@ SRC_URI="https://apt.enpass.io/pool/main/e/${PN}/${PN}_${PV}_amd64.deb"
 
 LICENSE="Enpass-EULA"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 RESTRICT="bindist mirror strip"
 
 RDEPEND="

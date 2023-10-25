@@ -14,7 +14,7 @@ if [[ "${PV}" == *9999* ]]; then
 else
 	PB="$(ver_cut 1-2)"
 	SRC_URI="https://launchpad.net/${PN}/${PB}/${PV}/+download/${PN}_${PV}.tar.gz"
-	KEYWORDS="~amd64"
+	KEYWORDS="amd64"
 fi
 
 RESTRICT="mirror"
